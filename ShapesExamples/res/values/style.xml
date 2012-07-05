@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ListItemTitle">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">@dimen/titleListItem</item>
+        <item name="android:textStyle">bold</item>
+	</style>
+	
+    <style name="ListItemDesc">
+        <item name="android:textColor">@color/Gray</item>
+        <item name="android:textSize">@dimen/descListItem</item>
+	</style>
+
+    <!-- Header -->
+    <style name="Header">
+        <item name="android:background">@color/Violet</item>
+        <item name="android:gravity">center</item>
+	</style>
+    	
+    <style name="HeaderText">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">@dimen/TitleText</item>
+        <item name="android:textStyle">bold</item>
+	</style>
+	
+    <!-- Footer -->
+    <style name="Footer">
+        <item name="android:background">@color/Violet</item>
+        <item name="android:gravity">center</item>
+	</style>
+
+    <style name="FooterText">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">@dimen/generalText</item>
+        <item name="android:gravity">center</item>
+	</style>
+    
+    <!-- Label Text -->
+    <style name="LabelText">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">@dimen/generalText</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- Field Row -->
+    <style name="FieldRow">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    
+    <!-- Button -->
+    <style name="Button">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">@dimen/generalText</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/shape_button</item>
+    </style>
+</resources>

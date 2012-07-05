@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+    <!-- Header -->
+	<include layout="@layout/include_header"/>
+	
+	<!-- Begin Body -->
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="1"
+	    android:layout_margin="10dp">
+	    
+	    <TableLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:stretchColumns="1">
+	        
+	        <TableRow
+	            android:background="@drawable/shape_fields"
+	            style="@style/FieldRow">
+	            
+	        	<TextView 
+	        	    android:layout_width="fill_parent"
+	        	    android:layout_height="wrap_content"
+	        	    style="@style/LabelText"
+	        	    android:text="Usuário:" />
+	        	
+	        	<EditText
+	        	    android:id="@+id/tLogin"
+	        	    android:layout_width="wrap_content"
+	        	    android:layout_height="wrap_content"
+	        	    android:text="admin"
+	        	    android:background="@drawable/shape_0_border" />
+	        	    
+	        	<TextView 
+	        	    android:layout_width="70dp"
+	        	    android:layout_height="wrap_content"
+	        	    android:text="" />
+	        </TableRow>
+	        
+	        <TableRow
+	            android:background="@drawable/shape_fields"
+	            style="@style/FieldRow">
+	        	
+	        	<TextView 
+	        	    android:layout_width="fill_parent"
+	        	    android:layout_height="wrap_content"
+	        	    style="@style/LabelText"
+	        	    android:text="Senha:" />
+	        	
+	        	<EditText
+	        	    android:id="@+id/tSenha"
+	        	    android:layout_width="fill_parent"
+	        	    android:layout_height="wrap_content"
+	        	    android:text="123" 
+	        	    android:background="@drawable/shape_0_border" />
+	        	    
+	        <TextView 
+	        	    android:layout_width="70dp"
+	        	    android:layout_height="wrap_content"
+	        	    android:text="" />
+	        </TableRow>
+	        
+	        <TableRow android:gravity="right">
+	        
+	            <Button 
+	                android:id="@+id/btLogin"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                style="@style/Button"
+	                android:text="Entrar" />
+	            
+	        </TableRow>
+	        
+	    </TableLayout>
+	</LinearLayout>
+	<!-- End Body -->
+	
+	<!-- Footer -->
+	<include layout="@layout/include_footer"/>
+</LinearLayout>

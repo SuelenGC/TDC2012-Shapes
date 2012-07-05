@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="headerText">Shapes - TDC 2012</string>
+    <string name="footerText">by @SuelenGC</string>
+    
+    <string name="app_name">ShapesExamples</string>
+    
+    <string name="rectangle_shape">Shape Retângular</string>
+    <string name="linear_shape">Shape Linear</string>
+    <string name="ring_shape">Shape Anelado</string>
+    <string name="oval_shape">Shape Ovalado</string>
+</resources>

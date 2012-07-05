@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleListItem">20sp</dimen>
+    <dimen name="descListItem">14sp</dimen>
+    
+    <dimen name="generalText">16sp</dimen>
+    <dimen name="TitleText">20sp</dimen>
+    
+    <dimen name="headerSize">70dp</dimen>
+    <dimen name="footerSize">50dp</dimen>
+    
+</resources>
