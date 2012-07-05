@@ -22,16 +22,16 @@ public class Shape implements Serializable {
 		shape = new Shape(2, "Shape Retangular 2", "Shape retangular com fundo radiente curvo.");
 		shapes.add(shape);
 		
-		/* A implementar
-		  
-		shape = new Shape(3, "Shape Oval 1", "Shape oval com fundo gradiente.");
+		shape = new Shape(3, "Shape Oval 1", "Shape oval.");
 		shapes.add(shape);
 		
+		shape = new Shape(4, "Shape Anel 1", "Shape anelado.");
+		shapes.add(shape);
+		
+		/* A implementar
 		shape = new Shape(4, "Shape Linear 1", "Shape linear.");
 		shapes.add(shape);
 		
-		shape = new Shape(5, "Shape Anel 1", "Shape anelado.");
-		shapes.add(shape);
 		*/
 		
 		return shapes; 

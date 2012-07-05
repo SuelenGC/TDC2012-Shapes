@@ -32,9 +32,10 @@ public final class R {
         public static final int shape_0_border=0x7f020001;
         public static final int shape_button=0x7f020002;
         public static final int shape_fields=0x7f020003;
-        public static final int shape_rectangle_linear_gradient=0x7f020004;
-        public static final int shape_rectangle_radius_gradient=0x7f020005;
-        public static final int shape_ring=0x7f020006;
+        public static final int shape_oval=0x7f020004;
+        public static final int shape_rectangle_linear_gradient=0x7f020005;
+        public static final int shape_rectangle_radius_gradient=0x7f020006;
+        public static final int shape_ring=0x7f020007;
     }
     public static final class id {
         public static final int btLogin=0x7f080005;
